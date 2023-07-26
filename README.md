@@ -1,38 +1,39 @@
-# create-svelte
+# TodoMate
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+TodoMate is a simple and intuitive Todo App that helps you organize your tasks efficiently. TodoMate provides a seamless experience to keep track of your todos.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Create Todos:** Add new tasks with ease.
+- **Check Todos:** Mark todos as completed when they're done.
+- **Delete Todos:** Remove unwanted todos effortlessly.
+- **Responsive Design:** Access TodoMate on any device, anywhere.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Screenshots
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- **Interface :**
+  ![Interface](https://github.com/MrMDrX/TodoMate/blob/main/screenshots/main.png)
 
-## Developing
+## Technologies Used
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **SvelteKit**
+- **TypeScript**
+- **HTML**
+- **CSS**
 
-```bash
-npm run dev
+## Getting Started
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+To get started with TodoMate, follow these steps:
 
-## Building
+1. Clone the repository: `git clone https://github.com/MrMDrX/TodoMate.git`
+2. Install dependencies: `cd TodoMate && pnpm install`
+3. Start the development server: `pnpm run dev`
+4. Open your browser and visit `http://localhost:5173`
 
-To create a production version of your app:
+## Contributing
 
-```bash
-npm run build
-```
+Contributions are welcome! If you'd like to contribute to TodoMate, please fork the repository and submit a pull request.
 
-You can preview the production build with `npm run preview`.
+## License
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
